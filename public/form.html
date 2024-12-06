@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid d-flex justify-content-center align-items-center" style="height:100vh">
+    <form class=" border border-3 border- p-3 w-25">
+        <h3 class="bi bi-person-fill">Register User</h3>
+        <div class="mb-3">
+            <label for="user" class="form-label">User Name</label>
+            <div>
+                <input type="text" class="form-control" id="user">
+            </div>
+        </div  >
+        <div  class="mb-3">
+            <label for="pwd"  class="form-label">Password</label>
+            <div>
+                <input type="password"  class="form-control"  id="pwd">
+            </div>
+        </div  >
+        <div  class="mb-3">
+            <label for="age"  class="form-label ">Age</label>
+            <div>
+                <input type="range"  class="form-range"  id="age">
+            </div>
+        </div>
+        <div  class="mb-3">
+            <label for="city"  class="form-label">Your city</label>
+            <div>
+                <select name="city"  class="form-select"  id="city">
+                    <option value="">Enter tour city</option>
+                    <option value="">Hyderabad</option>
+                    <option value="">Madras</option>
+                    <option value="">Bengaluru</option>
+                </select>
+            </div>     
+        </div>
+        <div class="mb-3">
+            <label for="sub"  class="form-label">Subscribe</label>
+            <div class="form-switch">
+                <input type="checkbox" id="sub"  class="form-check-input" checked  ><label>Yes</label>
+            </div>
+        </div>
+        <div>
+            <button class="btn btn-warning w-100">Submit</button>
+        </div>
+    </form>
+    
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

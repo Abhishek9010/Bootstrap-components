@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid">
+    <button data-bs-toggle="modal" data-bs-target="#login" class="btn btn-primary mt-4">Login</button>
+    <button data-bs-toggle="modal" data-bs-target="#kids" class="btn btn-success mt-4">Fashion</button>
+    <button data-bs-toggle="modal" data-bs-target="#AI" class="btn btn-dark mt-4">AI tools</button>
+    <button data-bs-toggle="modal" data-bs-target="#kstore" class="btn btn-danger mt-4">Kids</button>
+    
+    <div class="modal fade" id="kstore">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Kids Store</h3>
+                </div>
+                <div class="modal-body">
+                    <img src="../public/images/kid2.jpg" height="100" alt="">
+                    <img src="../public/images/kid3.jpg" height="100">
+                    <img src="../public/images/kid4.jpg" height="100">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-danger" data-bs-dismiss="modal">Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="modal fade" id="AI">
+        <div class="modal-dialog modal-dialog-centered" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 clas="bi bi-robot">AI tools</h3>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../public/images/AI.jpg" class="h-25 w-25" alt="">
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="kids">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Kids Fashion</h3>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../public/images/kid1.jpg" class="h-50 w-50" alt="">
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="modal fade " id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="bi bi-person-fill">Login</h3>
+                    <button data-bs-dismiss="modal" class="btn btn-close" ></button>
+                </div>
+                <div class="modal-body">
+                    <dl>
+                        <dt>UserName</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" class="form-control"></dd>
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" >Login</button>
+                    <button class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid">
+    <h2 class="text-center">Frequently Asked questions</h2>
+    
+    <div class="accordion border border-4  p-4" id="faq">
+        <div class="accordion-item" >
+            <div class="accordion-header">
+                <button class="btn btn-outline-danger w-100 mt-1" data-bs-toggle="collapse" data-bs-target="#q1" >Where is Gamora?</button>
+            </div>
+            <div class="accordion-collapse collapse" id="q1" data-bs-parent="#faq">
+                <div class="accordion-body ">
+                    <p>Bootstrap is an open-source framework designed for creating responsive, mobile-first websites. Initially developed by Twitter engineers Mark Otto and Jacob Thornton in 2011, it has become one of the most popular CSS frameworks</p>
+                </div>
+            </div>
+          
+        </div>
+
+        <div class="accordian-item" >
+            <div class="accordion-header">
+                <button class="btn btn-outline-danger w-100 mt-1" data-bs-toggle="collapse" data-bs-target="#q2" >Who is Gamora?</button>
+            </div>
+            <div class="accordion-collapse collapse" id="q2"  data-bs-parent="#faq">
+                <div class="accordion-body ">
+                    <b>Responsive Design</b><br>
+                    Bootstrap's primary strength lies in its ability to create responsive websites. This means that web pages built with Bootstrap can adapt to different devices, platforms, and screen sizes. Whether viewed on a smartphone, tablet, or desktop, the layout adjusts seamlessly <br>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="btn btn-outline-danger w-100 mt-1" data-bs-toggle="collapse" data-bs-target="#q3">Why is Gamora?</button>
+            </div>
+            <div class="accordion-colapse collapse" id="q3" data-bs-parent="#faq">
+                <div class="accordion-body">
+                    <b>Pre-Written Code</b><br>
+
+                    Bootstrap provides a collection of pre-written code snippets in CSS, HTML, and JavaScript. These snippets help developers quickly build web pages without writing code from scratch. This saves time and allows developers to focus on other aspects of web development
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="btn btn-outline-danger w-100 mt-1 " data-bs-toggle="collapse" data-bs-target="#q4">Where is thanos?</button>
+            </div>
+            <div class="accordion-collapse collapse" id="q4" data-bs-parent="#faq">
+                <div class="accordion-body">
+                    <p>Thanos takes Gamora to get the Soul Stone. Titan is his planet , destroyed bt him. He sent troups to the Earth to get the Mind stone and Time stone. In 2012 he sent loki to the NewYork for the deseract. </p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+   
+   
+<!--DROPDOWN -->
+   
+    <div class="dropdown">
+        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"> <span class=" bi bi-amazon mt-1"></span>
+            Amazon</button>
+        <ul class="dropdown-menu" >
+            <li class="dropdown-item "> <span class="dropdown-item-text"><span class="bi bi-person-circle"></span>profile</span> </li>
+            <li class="dropdown-item "><span class="dropdown-item-text"><span class=" bi bi-gear-wide-connected "></span>Settings</span></li>
+            <li class="dropdown-divider"></li>
+            <li class="dropdown-item"><span class="dropdown-item-text">Help</span></li>
+        </ul>
+    </div>
+
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle mt-4" data-bs-toggle="dropdown"><span class=" bi bi-cart4 me-2"></span>Flipkart</button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-item bi bi-person-circle">profile</li>
+            <li class="dropdown-item bi bi-gear-wide-connected">settings</li>
+        </ul>
+    </div>
+   
+   
+   
+   
+   
+   
+    <!-- <h2 class="text-center mt-4 text-bg-secondary">Frequently asked questions</h2>
+    <button class="btn btn-outline-danger w-100 mt-4" data-bs-toggle="collapse" data-bs-target="#q1"> what is Bootstrap</button>
+    <div class="collapse p-4 text-danger" id="q1">
+        <p class="mt-2">Bootstrap is an open-source framework designed for creating responsive, mobile-first websites. Initially developed by Twitter engineers Mark Otto and Jacob Thornton in 2011, it has become one of the most popular CSS frameworks</p>
+        <p>
+            <b>Responsive Design</b><br>
+            Bootstrap's primary strength lies in its ability to create responsive websites. This means that web pages built with Bootstrap can adapt to different devices, platforms, and screen sizes. Whether viewed on a smartphone, tablet, or desktop, the layout adjusts seamlessly <br>
+
+            <b>Pre-Written Code</b><br>
+
+            Bootstrap provides a collection of pre-written code snippets in CSS, HTML, and JavaScript. These snippets help developers quickly build web pages without writing code from scratch. This saves time and allows developers to focus on other aspects of web development
+        </p>
+    </div> -->
+
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

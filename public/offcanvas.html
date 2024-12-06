@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid">
+    <button data-bs-toggle="offcanvas" data-bs-target="#navbar" class="bi bi-justify btn btn-primary mt-4"></button>
+    <button data-bs-toggle="offcanvas" data-bs-target="#cart" class="bi bi-cart4 position-fixed top-0 end-0 mt-4 btn btn btn-dark" ></button>
+    <button data-bs-toggle="offcanvas" data-bs-target="#wish" class="bi bi-heart btn btn-outline-danger mt-4"></button>
+
+    <div class="offcanvas offcanvas-start" id="wish">
+        <div class="offcanvas-header bg-danger text-light">
+            <h3>your Wishlist</h3>
+            <button class="btn btn-close bg-light" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ol>
+                <li>Rolex Watch</li>
+                <li>Red checks Shirt</li>
+                <li>Black torn jeans</li>
+            </ol>
+        </div>
+        <div class="offcanvas-footer ">
+            <button class="btn btn-outline-danger mb-4 w-100" data-bs-dismiss="offcanvas">Home</button>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" id="cart" tabindex="-1" >
+        <div class="offcanvas-header">
+            <h3>Your Cart</h3>
+        </div>
+        <div class="offcanvas-body">
+            <ol>
+                <li>Fastrack watch</li>
+                <li>Levis jeans</li>
+                <li>USPA cotton shirt</li>
+            </ol>
+        </div>
+        <div class="offcanvas-footer">
+            <button class="btn btn-danger w-25 mb-4 ms-4 " data-bs-dismiss="offcanvas">Exit</button>
+        </div>
+    </div>
+
+    <nav class="offcanvas offcanvas-start" tabindex="-1" id="navbar">
+        <div class="offcanvas-header">
+            <h3>Amazon_</h3>
+            <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ol>
+                <li>Clothing</li>
+                <li>Footewar</li>
+                <li>Electronics</li>
+                <li>Beauty</li>
+            </ol>
+        </div>
+    </nav>
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
